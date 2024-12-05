@@ -98,6 +98,7 @@ h2{
 }
 .becomediv{
     text-align: center;
+    margin-bottom: 40px;
 }
 .footerul ul li{
     display: inline-block;
@@ -110,8 +111,20 @@ h2{
     text-decoration: none;
     padding-right: 32px;
 }
-.footerul{
+.fcenter{
     text-align: center;
+}
+.flogo{
+    padding-right: 100px;
+    display: inline-block;
+}
+.footerul{
+    display: inline-block;
+    text-align: center;
+}
+.fcopy{
+    padding-left: 100px;
+    display: inline-block;
 }
 .copy{
     text-align: right;
@@ -120,6 +133,7 @@ h2{
     line-height: 24px;
     color: #D6BBFB;
 }
+
 footer{
     background-color: #53389E;
 }
