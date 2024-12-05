@@ -23,7 +23,6 @@
 }
 .menu{
     display: inline-block;
-    font-size: 18px;
     font-weight: 400;
     text-align: center;
     padding-right: 80px;
@@ -38,6 +37,10 @@
     text-decoration: none;
     padding-right: 20px;
     color: #323232;
+}
+.menu ul li a:hover{
+    color: #FF5DA3;
+
 }
 .container{
     text-align: center;
