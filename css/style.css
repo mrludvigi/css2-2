@@ -96,6 +96,9 @@ h2{
     text-align: center;
 
 }
+.becomediv{
+    text-align: center;
+}
 .footerul ul li{
     display: inline-block;
     padding: var(--spacing-6xl, 48px) 0px;
