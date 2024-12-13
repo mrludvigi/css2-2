@@ -1,139 +1,159 @@
+@import url('https://fonts.cdnfonts.com/css/inter');
+@import url('https://fonts.cdnfonts.com/css/ibm-plex-sans-kr');
+@import url('https://fonts.cdnfonts.com/css/hind-vadodara');
+
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
   }
-  .logo {
-    max-width: 147px;
-    max-height: 21px;
-    display: inline-block;
-    align-items: center;
-    margin-right: 80px;
-}
-.contact{
-    display: inline-block;
-    border-radius: 8px;
-    border: 1px solid #00AC25;
-    background: #00AC25;
-    padding: 8px 16px;
-    text-decoration: none;
+  header{
+    margin: 12px 80px;
+    margin-bottom: 178px;
+  }
+  .headerContainer{
     text-align: center;
-}
-.contact a{
-    color: #fff;
-    text-decoration: none;
-}
-.menu{
+    margin: 0 auto;
+    max-width: 980px;
+    width: 100%;
+  }
+  .logo{
     display: inline-block;
-    font-weight: 400;
-    text-align: center;
-    padding-right: 80px;
-    margin-right: 80px;
-    align-items: center;
-    max-width: 1140px;
-}
-.menu ul li{
+    vertical-align: middle;
+  }
+  .navigation{
+    margin-left: 100px;
+    margin-right: 100px;
     display: inline-block;
-}
-.menu ul li a{
+    vertical-align: middle;
+  }
+  .nav_items{
+    font-family: 'Inter', sans-serif;
+    margin-right: 15px;
     text-decoration: none;
-    padding-right: 20px;
     color: #323232;
-}
-.menu ul li a:hover{
-    color: #FF5DA3;
-
-}
-.container{
-    text-align: center;
-}
-.sectionone{
-    max-width: 1316px;
-    margin-left: 302px;
-    margin-right: 302px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .contact_us{
+    background: #00AC25;
+    border: 1px solid #00AC25;
+    border-radius: 8px;
+    vertical-align: middle;
+    padding: 8px 16px;
     align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .contact_us a{
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+.mainContainer{
+    margin:0 auto;
+    max-width: 1316px;
+    width: 100%;
 }
-h1{
+.mainContainer h1{
+    font-family: 'Inter', sans-serif;
     color: #000;
     text-align: center;
     font-size: 72px;
     font-weight: 700;
-    margin-bottom: 24px;
 }
 .pink{
+    font-family: 'Inter', sans-serif;
     color: #FF5DA3;
 }
-.pone{
+.mainContainerP{
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    display: inline-block;
+    color: #000;
     text-align: center;
     font-size: 24px;
     font-weight: 400;
     line-height: 32px;
-    margin-bottom: 24px;
 }
-h2{
+.mainContainer h2{
+    color: #000;
     text-align: center;
     font-size: 48px;
     font-weight: 700;
-    margin-bottom: 24px;
 }
-.ptwo{
+.mainP{
+    font-family: 'Hind Vadodara', sans-serif;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    display: inline-block;
     color: #6941C6;
     text-align: center;
+    line-height: 32px;
     font-size: 24px;
     font-weight: 400;
-    line-height: 32px;
-    margin-bottom: 24px;
 }
 .become{
-    color: #fff;
-    font-size: 18px;
-    font-weight: 500;
-    align-items: center;
-    padding: 16px 24px;
-    border: 8px solid #00AC25;
-    background-color: #00AC25;
-    border-radius: 8px;
-    text-decoration: none;
-    display: inline-block;
-    text-align: center;
-
+  display: block;
+  margin: 0 auto;
+  background: #00AC25;
+  border: 1px solid #00AC25;
+  border-radius: 8px;
+  padding: 16px 24px;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 578px;
 }
-.becomediv{
-    text-align: center;
-    margin-bottom: 40px;
+.become a{
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  color: #FFFFFF;
 }
-.footerul ul li{
-    display: inline-block;
-    padding: var(--spacing-6xl, 48px) 0px;
-}
-.footerul ul li a{
-    text-align: center;
-    align-items: center;
-    color: #E9D7FE;
-    text-decoration: none;
-    padding-right: 32px;
-}
-.fcenter{
-    text-align: center;
-}
-.flogo{
-    padding-right: 100px;
-    display: inline-block;
-}
-.footerul{
-    display: inline-block;
-    text-align: center;
-}
-.fcopy{
-    padding-left: 100px;
-    display: inline-block;
-}
-.copy{
-    text-align: right;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #D6BBFB;
-}
-
 footer{
-    background-color: #53389E;
+  background: var(--Colors-Background-bg-brand-section, #53389E);
+  padding: var(--spacing-6xl, 48px) 0px;
+  align-items: center;
+}
+
+.footerContainer{
+  text-align: center;
+  margin: 0 auto;
+  max-width: var(--container-max-width-desktop, 1280px);
+  width: 100%;
+  padding: 0px var(--container-padding-desktop, 32px);
+
+}
+.Logofooter{
+  max-width: 142px;
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+.navMap{
+  max-width: 512px;
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.navMap a{
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  color: #E9D7FE;
+  margin-right: 24px;
+}
+.privacy{
+  margin-right: 0;
+}
+.footerH{
+  font-family: 'Inter', sans-serif;
+  display: inline-block;
+  vertical-align: middle;
+  color: #D6BBFB;
+  font-weight: 400;
+  line-height:  24px;
+  font-size: 16px;
+  margin-left: 50px;
 }
